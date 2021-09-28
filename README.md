@@ -102,12 +102,12 @@ int main()
 #include <iostream>
 using namespace std;
 int main() {
-    while (1) {
+    while (true) {
         int numberofSides;
         cout << "\nShape DeterminatorInator\n";
         cout << "\nHow many sides does the shape have?\n\n";
         cin >> numberofSides;
-        if (numberofSides == 3)
+        if (numberofSides>=3&&numberofSides<4)
         {
             cout << "\n" << "The shape is a Triangle\n";
         }

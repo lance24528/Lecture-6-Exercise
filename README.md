@@ -101,41 +101,41 @@ int main()
 // Page 27 exercise
 #include <iostream>
 using namespace std;
-int main(){
-    while(1){
+int main() {
+    while (1) {
         int numberofSides;
         cout << "\nShape DeterminatorInator\n";
         cout << "\nHow many sides does the shape have?\n\n";
         cin >> numberofSides;
-        if (numberofSides==3)
+        if (numberofSides == 3)
         {
             cout << "\n" << "The shape is a Triangle\n";
         }
-        else if (numberofSides==4)
+        else if (numberofSides == 4)
         {
             cout << "\n" << "The shape is a Quadrilateral\n";
         }
-        else if (numberofSides==5)
+        else if (numberofSides == 5)
         {
             cout << "\n" << "The shape is a Pentagon\n";
         }
-        else if (numberofSides==6)
+        else if (numberofSides == 6)
         {
             cout << "\n" << "The shape is a Hexagon\n";
         }
-        else if (numberofSides==7)
+        else if (numberofSides == 7)
         {
             cout << "\n" << "The shape is a Heptagon\n";
         }
-        else if (numberofSides==8)
+        else if (numberofSides == 8)
         {
             cout << "\n" << "The shape is a Octagon\n";
         }
-        else if (numberofSides==9)
+        else if (numberofSides == 9)
         {
             cout << "\n" << "The shape is a Nonagon\n";
         }
-        else if (numberofSides==10)
+        else if (numberofSides == 10)
         {
             cout << "\n" << "The shape is a Decagon\n";
         }
@@ -146,8 +146,15 @@ int main(){
         else if (numberofSides < 3)
         {
             cout << "\nA Shape can't have less than 3 sides, Please run the program again\n";
-            break;
-        }  
+            bool prgram;
+            cout << "\nType 1 if you want to terminate the program and press 0 to try again\n\n";
+            cin >> prgram;           
+            if (prgram==true)
+            {                            
+                break;
+            }
+            
+        }
     }
 }
 

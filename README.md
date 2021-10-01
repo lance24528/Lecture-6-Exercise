@@ -261,7 +261,7 @@ int main()
 using namespace std;
 int main()
 {	
-	cout << "MagnitudeInator for earthquaktes\n\n";
+	cout << "MagnitudeInator for earthquakes\n\n";
 	cout << "is there an earthquake? Type Yes or No only\n\n";
 	string x;
 	cin >> x;

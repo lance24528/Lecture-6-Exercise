@@ -166,7 +166,7 @@ int main()
 	{
 		cout << "Grading System Inator\n\n";
 		double grade;
-		cout << "Input the grade of the student\n\n";
+		cout << "Input the grade of the student out of 100\n\n";
 		cin >> grade;
 		if (grade < 40)
 		{
